@@ -107,32 +107,32 @@ export default function Hero() {
             transition={{ duration: 1, ease: [0.16, 1, 0.3, 1], delay: 0.2 }}
             className="lg:col-span-5 relative flex items-center justify-center"
           >
-            {/* Perfectly Circular 1:1 Aspect Ratio Container */}
-            <div className="relative w-full max-w-[300px] sm:max-w-[380px] lg:max-w-[420px] aspect-square flex items-center justify-center group">
+            {/* Prominent Circular 1:1 Aspect Ratio Container (Scaled ~18% larger) */}
+            <div className="relative w-full max-w-[340px] sm:max-w-[430px] lg:max-w-[490px] xl:max-w-[510px] aspect-square flex items-center justify-center group">
               
               {/* Subtle Elegant Crimson Red Halo & Radial Glow */}
               <div 
-                className="absolute -inset-4 rounded-full blur-2xl sm:blur-3xl opacity-40 group-hover:opacity-70 transition-opacity duration-700 pointer-events-none"
+                className="absolute -inset-4 sm:-inset-6 rounded-full blur-2xl sm:blur-3xl opacity-45 group-hover:opacity-75 transition-opacity duration-700 pointer-events-none"
                 style={{
                   background: 'radial-gradient(circle, rgba(227, 27, 53, 0.45) 0%, rgba(227, 27, 53, 0.15) 55%, transparent 75%)'
                 }}
               />
 
               {/* Outer Decorative Cybernetic Circular Ring */}
-              <div className="absolute -inset-2 rounded-full border border-white/10 group-hover:border-[#E31B35]/40 transition-colors duration-700 pointer-events-none" />
+              <div className="absolute -inset-2.5 rounded-full border border-white/10 group-hover:border-[#E31B35]/40 transition-colors duration-700 pointer-events-none" />
 
               {/* Inner Glowing Accent Ring */}
-              <div className="absolute -inset-0.5 rounded-full border border-[#E31B35]/30 group-hover:border-[#E31B35]/60 transition-colors duration-500 pointer-events-none shadow-[0_0_25px_rgba(227,27,53,0.3)]" />
+              <div className="absolute -inset-0.5 rounded-full border border-[#E31B35]/30 group-hover:border-[#E31B35]/70 transition-colors duration-500 pointer-events-none shadow-[0_0_25px_rgba(227,27,53,0.3)] group-hover:shadow-[0_0_35px_rgba(227,27,53,0.5)]" />
 
               {/* Clean Smooth Circular Image Frame (border-radius: 50%, overflow: hidden) */}
               <div 
-                className="relative w-full h-full rounded-full overflow-hidden border border-white/20 shadow-2xl z-10 bg-transparent"
+                className="relative w-full h-full rounded-full overflow-hidden border border-white/20 group-hover:border-[#E31B35]/50 shadow-2xl z-10 bg-transparent transition-colors duration-500"
                 style={{ borderRadius: '50%' }}
               >
                 <img
                   src={personalInfo.heroImage}
                   alt="Abin Salish creative workstation with editing software, camera, and books"
-                  className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out"
+                  className="w-full h-full object-cover opacity-[0.85] group-hover:opacity-100 transform group-hover:scale-105 transition-all duration-700 ease-out"
                   loading="eager"
                 />
               </div>
