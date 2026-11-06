@@ -100,67 +100,37 @@ export default function Hero() {
 
           </motion.div>
 
-          {/* Right Column: Uploaded Workspace Photograph with Cinematic Treatment */}
+          {/* Right Column: Uploaded Workspace Circular Photograph */}
           <motion.div 
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, ease: [0.16, 1, 0.3, 1], delay: 0.2 }}
             className="lg:col-span-5 relative flex items-center justify-center"
           >
-            {/* Tech Corner Bracket Frame Wrapper */}
-            <div className="relative w-full max-w-[460px] group">
+            {/* Perfectly Square 1:1 Aspect Ratio Container */}
+            <div className="relative w-full max-w-[320px] sm:max-w-[400px] lg:max-w-[440px] aspect-square flex items-center justify-center group">
               
-              {/* Outer Crimson Atmospheric Glow */}
-              <div className="absolute -inset-2 bg-gradient-to-r from-[#E31B35]/40 via-amber-500/20 to-transparent rounded-3xl blur-2xl opacity-60 group-hover:opacity-90 transition-opacity duration-700" />
-              
-              {/* Cybernetic Container */}
-              <div className="relative rounded-2xl overflow-hidden bg-[#121215] border border-white/15 shadow-2xl p-2.5">
-                
-                {/* Tech Bracket Accents */}
-                <div className="absolute top-2 left-2 w-4 h-4 border-t-2 border-l-2 border-[#E31B35] z-20 pointer-events-none" />
-                <div className="absolute top-2 right-2 w-4 h-4 border-t-2 border-r-2 border-[#E31B35] z-20 pointer-events-none" />
-                <div className="absolute bottom-2 left-2 w-4 h-4 border-b-2 border-l-2 border-[#E31B35] z-20 pointer-events-none" />
-                <div className="absolute bottom-2 right-2 w-4 h-4 border-b-2 border-r-2 border-[#E31B35] z-20 pointer-events-none" />
+              {/* Subtle Elegant Crimson Red Halo & Radial Glow */}
+              <div 
+                className="absolute inset-0 rounded-full blur-3xl opacity-50 group-hover:opacity-75 transition-opacity duration-700 pointer-events-none"
+                style={{
+                  background: 'radial-gradient(circle, rgba(227, 27, 53, 0.42) 0%, rgba(227, 27, 53, 0.14) 50%, transparent 72%)'
+                }}
+              />
 
-                {/* Workspace Photograph */}
-                <div className="relative aspect-[4/5] w-full rounded-xl overflow-hidden bg-zinc-950">
-                  <img
-                    src={personalInfo.heroImage}
-                    alt="Abin Salish creative workstation with editing software, camera, and books"
-                    className="w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-700 ease-out"
-                    loading="eager"
-                  />
-                  
-                  {/* Cinematic Dark Gradient Overlays */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#080808] via-transparent to-black/30 pointer-events-none" />
-                  <div className="absolute inset-0 bg-gradient-to-r from-[#080808]/40 via-transparent to-transparent pointer-events-none" />
-                  
-                  {/* Subtle Scanlines effect overlay */}
-                  <div className="absolute inset-0 bg-[linear-gradient(rgba(18,18,18,0)_50%,rgba(0,0,0,0.4)_50%)] bg-[length:100%_4px] pointer-events-none opacity-30" />
+              {/* Concentric Ambient Ring */}
+              <div className="absolute inset-2 rounded-full border border-[#E31B35]/20 opacity-40 pointer-events-none group-hover:scale-105 transition-transform duration-700 ease-out" />
 
-                  {/* Floating Creative Tag on Image */}
-                  <div className="absolute bottom-4 left-4 right-4 p-3.5 rounded-xl bg-[#0c0c0e]/80 backdrop-blur-md border border-white/10 shadow-lg">
-                    <div className="flex items-center justify-between">
-                      <div className="flex items-center space-x-2">
-                        <span className="w-2.5 h-2.5 rounded-full bg-[#E31B35] animate-pulse" />
-                        <span className="font-mono text-xs font-semibold text-white tracking-wider uppercase">
-                          Creative Workstation
-                        </span>
-                      </div>
-                      <span className="text-[10px] font-mono text-zinc-400 bg-white/5 px-2 py-0.5 rounded">
-                        Kerala, IN
-                      </span>
-                    </div>
-                    <p className="text-xs text-zinc-300 mt-1 font-sans">
-                      DaVinci Resolve • Code IDE • Hardware Lab
-                    </p>
-                  </div>
+              {/* The Original Photograph with object-contain */}
+              <img
+                src={personalInfo.heroImage}
+                alt="Abin Salish creative workstation with editing software, camera, and books"
+                className="w-full h-full object-contain relative z-10 transition-transform duration-700 ease-out group-hover:scale-[1.02] drop-shadow-[0_0_35px_rgba(227,27,53,0.35)]"
+                loading="eager"
+              />
 
-                </div>
-              </div>
-
-              {/* Decorative Subtle Floating Pill (Top-Right) */}
-              <div className="absolute -top-4 -right-4 hidden sm:flex items-center space-x-2 bg-zinc-900/90 border border-zinc-700/80 px-3.5 py-1.5 rounded-full shadow-2xl backdrop-blur-md">
+              {/* Decorative Subtle Floating Pill (Top-Right, outside circle) */}
+              <div className="absolute -top-3 -right-3 hidden sm:flex items-center space-x-2 bg-zinc-900/90 border border-zinc-700/80 px-3.5 py-1.5 rounded-full shadow-2xl backdrop-blur-md z-20">
                 <Sparkles className="w-3.5 h-3.5 text-amber-400" />
                 <span className="text-[11px] font-mono text-zinc-200">Curious Mind. Creative Soul.</span>
               </div>
