@@ -9,7 +9,7 @@ export const personalInfo = {
   grade: "Grade 9 Student",
   status: "Exploring New Tech & Inventions",
   ambition: "To become a successful entrepreneur, build innovative businesses, create something meaningful, and achieve extraordinary financial success.",
-  heroImage: "/images/abin-workspace.png",
+  heroImage: `${import.meta.env.BASE_URL}images/abin-workspace.png`,
   aboutHeading: "THE MIND BEHIND THE BUILDS.",
   aboutStory: [
     "I am Abin Salish, a Grade 9 student based in Kerala, India. I have an insatiable fascination with technology, computers, and how systems function beneath the surface.",
