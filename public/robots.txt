@@ -1,0 +1,6 @@
+# robots.txt for https://noxtifox.github.io/abin-portfolio/
+User-agent: *
+Allow: /
+
+Sitemap: https://noxtifox.github.io/abin-portfolio/sitemap.xml
+
