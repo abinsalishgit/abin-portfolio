@@ -28,8 +28,8 @@ export const personalInfo = {
     whatsappUrl: "https://wa.me/919188855265",
     email: "abinsalishcvn@gmail.com",
     emailHref: "mailto:abinsalishcvn@gmail.com",
-    githubUrl: "https://github.com/noxtifox",
-    githubHandle: "noxtifox",
+    githubUrl: "https://github.com/abinsalishgit",
+    githubHandle: "abinsalishgit",
     instagramUrl: "https://instagram.com/abi_n_salish",
     instagramHandle: "abi_n_salish"
   }
@@ -254,7 +254,7 @@ export const projectsList = [
     description: "A cinematic, ultra-modern personal portfolio built with React, Tailwind CSS, and Framer Motion featuring custom dark aesthetics, metallic medal cards, and interactive tech pillars.",
     techStack: ["React 19", "Tailwind CSS", "Framer Motion", "Vite"],
     isPlaceholder: false,
-    githubUrl: "https://github.com/noxtifox/portfolio",
+    githubUrl: "https://github.com/abinsalishgit/abin-portfolio",
     liveUrl: "#",
     badge: "Featured Build",
     imageAccent: "crimson"
@@ -266,7 +266,7 @@ export const projectsList = [
     description: "[Project Slot] Modern web application exploring interactive user experiences, reactive layouts, dynamic themes, and API data fetching.",
     techStack: ["React", "JavaScript", "CSS3", "Responsive UI"],
     isPlaceholder: true,
-    githubUrl: "https://github.com/noxtifox",
+    githubUrl: "https://github.com/abinsalishgit",
     liveUrl: "#",
     badge: "In Development",
     imageAccent: "amber"
@@ -278,7 +278,7 @@ export const projectsList = [
     description: "[Project Slot] A repository of mathematical logic experiments, mini algorithms, sorting visualization scripts, and interactive puzzle solvers.",
     techStack: ["JavaScript", "Mathematics", "Algorithms", "Logic"],
     isPlaceholder: true,
-    githubUrl: "https://github.com/noxtifox",
+    githubUrl: "https://github.com/abinsalishgit",
     liveUrl: "#",
     badge: "Experiments",
     imageAccent: "slate"
@@ -290,7 +290,7 @@ export const projectsList = [
     description: "[Project Slot] Documented exploration of network security fundamentals, penetration testing workflows, and defensive practices inside a safe virtualized Kali Linux environment.",
     techStack: ["Kali Linux", "Bash", "Network Security", "VirtualBox"],
     isPlaceholder: true,
-    githubUrl: "https://github.com/noxtifox",
+    githubUrl: "https://github.com/abinsalishgit",
     liveUrl: "#",
     badge: "Security Lab",
     imageAccent: "crimson"
@@ -302,7 +302,7 @@ export const projectsList = [
     description: "[Project Slot] Visual showcase of high-contrast cinematic color grading, custom node LUT styling, and narrative pacing edited entirely in DaVinci Resolve.",
     techStack: ["DaVinci Resolve", "Color Science", "Node Graph", "Video Edit"],
     isPlaceholder: true,
-    githubUrl: "https://github.com/noxtifox",
+    githubUrl: "https://github.com/abinsalishgit",
     liveUrl: "#",
     badge: "Media Showcase",
     imageAccent: "amber"
@@ -314,7 +314,7 @@ export const projectsList = [
     description: "[Project Slot] Hands-on hardware experiments investigating electronics, circuit assembly, and innovative gadget prototypes designed for real-world utility.",
     techStack: ["Hardware Study", "Electronics", "Prototyping", "Innovation"],
     isPlaceholder: true,
-    githubUrl: "https://github.com/noxtifox",
+    githubUrl: "https://github.com/abinsalishgit",
     liveUrl: "#",
     badge: "Invention Lab",
     imageAccent: "slate"

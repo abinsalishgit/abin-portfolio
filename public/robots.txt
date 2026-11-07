@@ -1,6 +1,5 @@
-# robots.txt for https://noxtifox.github.io/abin-portfolio/
+# robots.txt for https://abinsalishgit.github.io/abin-portfolio/
 User-agent: *
 Allow: /
 
-Sitemap: https://noxtifox.github.io/abin-portfolio/sitemap.xml
-
+Sitemap: https://abinsalishgit.github.io/abin-portfolio/sitemap.xml
